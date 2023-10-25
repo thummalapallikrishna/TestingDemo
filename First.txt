@@ -1,1 +1,53 @@
 My name is Jaya Krishna
+
+// this below code shows the push statements
+
+C:\Users\TKRISHNA>mkdir NewFolder21
+
+C:\Users\TKRISHNA>cd NewFolder21
+
+C:\Users\TKRISHNA\NewFolder21> git init
+Initialized empty Git repository in C:/Users/TKRISHNA/NewFolder21/.git/
+
+C:\Users\TKRISHNA\NewFolder21>git add First.txt
+
+C:\Users\TKRISHNA\NewFolder21>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   First.txt
+
+
+C:\Users\TKRISHNA\NewFolder21>git commit -m"This is my new file"
+[master (root-commit) fb56cc0] This is my new file
+ Committer: Krishna <thummalapalli-jaya.krishna@capgemini.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+ create mode 100644 First.txt
+
+C:\Users\TKRISHNA\NewFolder21>git branch -M branch
+
+C:\Users\TKRISHNA\NewFolder21>git remote add origin https://github.com/thummalapallikrishna/TestingDemo.git
+
+C:\Users\TKRISHNA\NewFolder21>git push -u origin branch
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 255 bytes | 85.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/thummalapallikrishna/TestingDemo.git
+ * [new branch]      branch -> branch
+branch 'branch' set up to track 'origin/branch'.
